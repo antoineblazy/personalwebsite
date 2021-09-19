@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antoine Blazy</title>
+    <!-- Import Styles -->
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./js/navbar-ontop.js"></script>
+    <script src="https://kit.fontawesome.com/baa3d09052.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light d-block d-sm-none">
+        <div class="container">
+            <a class="navbar-brand" href="#">Antoine Blazy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#banner">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#personnal">Personnal Background</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#academic">Academic Path</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#professional">Professional Experiences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#myresume">My Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light d-none d-sm-block">
+        <div class="container">
+            <a class="navbar-brand" href="#"><b>Antoine Blazy</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-between" id="navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#banner">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#personnal">Personnal Background</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#academic">Academic Path</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#professional">Professional Experiences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#myresume">My Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"> <a class="nav-link" target="_blank"
+                            href="https://www.linkedin.com/in/antoineblazy/"><i class="fa-2x fab fa-linkedin"></i></a>
+                    </li>
+                    <li class="nav-item"> <a class="nav-link" href="mailto:antoine.blazy@kedgebs.com"><i
+                                class="fa-2x fas fa-envelope"></i></a></li>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="banner" class="py-5 bg-secondary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center my-auto">
+                        <h1 class="display-1">Antoine Blazy</h1>
+                        <h2 class="fst-italic">"Building together"</h2>
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-center">
+                        <img class="img-fluid shadow-lg my-5 rounded" src="./assets/avatar.jpg"
+                            alt="my profile picture">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Personnal Background -->
+
+        <section id="personnal" class="py-5 bg-grey h-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 mx-auto mb-5">
+                        <h3 class="fw-bold">Personnal Background</h3>
+                        <figure>
+                            <blockquote class="blockquote">
+                                <p>History is who we are and why we are the way we are.</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                                <cite class="text-white" title="Source Title">- David McCullough
+
+                                </cite>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="row d-flex justify-content-between align-items-center">
+                            <div class="col-md-4 col-lg-4 col-sm-12 mb-3">
+                                <div class="card bg-dark text-white">
+                                    <div class="card-overlay"></div>
+                                    <img src="./assets/taur.jpg" class="card-img" alt="toulouse streets">
+                                    <div class="card-img-overlay">
+                                        <h4 class="card-title">Made in Toulouse</h4>
+                                        <p class="card-text">I'm born in 1997 in the european capital of aerospace
+                                            industry. In this amazing village-city I was able to flourish to become who
+                                            I am today, in the midst of jazz, museums... <br>
+                                            <button class="btn btn-outline-light mt-1" data-bs-toggle="modal"
+                                                data-bs-target="#toulouse"> Read more..</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                             <!-- MODAL -->
+                             <div class="modal fade" id="toulouse" data-bs-backdrop="static" data-bs-keyboard="false"
+                             tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                             <div class="modal-dialog modal-dialog-scrollable">
+                                 <div class="modal-content bg-dark">
+                                     <div class="modal-header">
+                                         <!-- TITLE MODAL -->
+                                         <h5 class="modal-title" id="staticBackdropLabel">Made in Toulouse</h5>
+                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                             aria-label="Close"></button>
+                                     </div>
+                                     <!-- CONTENT MODAL -->
+                                     <div class="modal-body">
+                                        I'm born in 1997 in the european capital of aerospace
+                                        industry. In this amazing village-city I was able to flourish to become who
+                                        I am today, in the midst of jazz, museums, Spanish-style bars (tapas bars)
+                                        and by rubbing shoulders with people from all walks of life and with great
+                                        stories. With a loving family and all the treasures that my city held, I
+                                        cultivated a boundless curiosity whatever the subject approached.
+                                     </div>
+                                     <div class="modal-footer">
+                                         <button type="button" class="btn btn-secondary"
+                                             data-bs-dismiss="modal">Close</button>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         <!-- FIN MODAL -->
+
+                            <div class="col-md-4 col-lg-4 col-sm-12 mb-3">
+                                <div class="card bg-dark text-white">
+                                    <div class="card-overlay"></div>
+                                    <img src="./assets/rugby.jpg" class="card-img" alt="rugby ball and field">
+                                    <div class="card-img-overlay">
+                                        <h4 class="card-title">Crouch, bind, set !</h4>
+                                        <p class="card-text">After soccer, rock climbing and horse riding, I have
+                                            spent almost 10 years of my life with great rugby teams! I continued this
+                                            adventure within the rugby team of my business school after a 2-year break
+                                            in Toulouse's American football team (Les Ours). <br>
+                                            <button class="btn btn-outline-light mt-1" data-bs-toggle="modal"
+                                                data-bs-target="#rugby"> Read more..</button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- MODAL -->
+                            <div class="modal fade" id="rugby" data-bs-backdrop="static" data-bs-keyboard="false"
+                                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <div class="modal-content bg-dark">
+                                        <div class="modal-header">
+                                            <!-- TITLE MODAL -->
+                                            <h5 class="modal-title" id="staticBackdropLabel">Crouch, bind, set !</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <!-- CONTENT MODAL -->
+                                        <div class="modal-body">
+                                            After soccer, rock climbing and horse riding, I have
+                                            spent almost 10 years of my life with great rugby teams! I continued this
+                                            adventure within the rugby team of my business school after a 2-year break
+                                            in Toulouse's American football team (Les Ours). This
+                                            sport, through its values of mutual aid, honor, surpassing oneself and
+                                            selflessness, constituted a real bubble of oxygen and a school of
+                                            life without equal.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- FIN MODAL -->
+
+                            <div class="col-md-4 col-lg-4 col-sm-12 mb-3">
+                                <div class="card bg-dark text-white">
+                                    <div class="card-overlay"></div>
+                                    <img src="./assets/drone.JPG" class="card-img"
+                                        alt="personnal drone footage of Dune du Pilat">
+                                    <div class="card-img-overlay">
+                                        <h4 class="card-title">High tech & drone passionate</h4>
+                                        <p class="card-text">Unconditional fan of video games (strategy, management,
+                                            FPS, city builders, RPGs), I particularly like to follow technological
+                                            developments related to hardware (mobile or computer), media, social
+                                            networks and I am interested in programming. <br>
+                                            <button class="btn btn-outline-light mt-1" data-bs-toggle="modal"
+                                                data-bs-target="#drone"> Read more..</button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- MODAL -->
+                            <div class="modal fade" id="drone" data-bs-backdrop="static" data-bs-keyboard="false"
+                                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <div class="modal-content bg-dark">
+                                        <div class="modal-header">
+                                            <!-- TITLE MODAL -->
+                                            <h5 class="modal-title" id="staticBackdropLabel">High tech & drone passionate</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <!-- CONTENT MODAL -->
+                                        <div class="modal-body">
+                                            Unconditional fan of video games (strategy, management,
+                                            FPS, city builders, RPGs), I particularly like to follow technological
+                                            developments related to hardware (mobile or computer), media, social
+                                            networks and I am interested in programming. (Very) happy owner of a Mavic
+                                            Pro 2, I go out and make great videos as soon as the weather allows it to
+                                            edit them afterwards.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- FIN MODAL -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Academic Background -->
+
+        <section id="academic" class="py-5 bg-dark h-100">
+            <div class="container-fluid px-lg-5">
+                <div class="row">
+                    <div class="col-md-12 mx-auto mb-5">
+                        <h3 class="fw-bold">Academic Path</h3>
+                        <figure>
+                            <blockquote class="blockquote">
+                                <p>A dull mind gets bored easily. A curious mind expands forever.</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                                <cite class="text-white" title="Source Title">- Maxime Lagacé
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="row d-flex justify-content-between align-items-center">
+                            <div class="col-md-3 col-lg-3 col-sm-12 mb-3">
+                                <div class="card bg-dark text-white">
+                                    <div class="card-overlay"></div>
+                                    <img src="./assets/saintjo.jpg" class="card-img"
+                                        alt="courtyard of lycée saint joseph in Toulouse">
+                                    <div class="card-img-overlay">
+                                        <h4 class="card-title">High School</h4>
+                                        <p class="card-text">I obtained an Economic and Social baccalaureate at the
+                                            Saint-Joseph private high school in Toulouse, European option, mathematics
+                                            specialty and with high honors in 2016. I had the chance to go on a school
+                                            trip to Ireland and be part of the high school theater troupe. I was also a
+                                            volunteer at the students' home to ensure its daily functioning. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-lg-3 col-sm-12 mb-3">
+                                <div class="card bg-dark text-white">
+                                    <div class="card-overlay"></div>
+                                    <img src="./assets/kbs.jpg" class="card-img" alt="Kedge Business school interior">
+                                    <div class="card-img-overlay">
+                                        <h4 class="card-title">2016-2020: EBP years</h4>
+                                        <p class="card-text">After that, I joined by competition Kedge Business School
+                                            within the European Business Program, a general management curriculum,
+                                            oriented towards management and international business. <br>
+                                            <button class="btn btn-outline-light mt-1" data-bs-toggle="modal"
+                                                data-bs-target="#ebp"> Read more..</button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- MODAL -->
+                            <div class="modal fade" id="ebp" data-bs-backdrop="static" data-bs-keyboard="false"
+                                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <div class="modal-content bg-dark">
+                                        <div class="modal-header">
+                                            <!-- TITLE MODAL -->
+                                            <h5 class="modal-title" id="staticBackdropLabel">2016-2020: EBP years</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <!-- CONTENT MODAL -->
+                                        <div class="modal-body">
+                                            After that, I joined by competition Kedge Business School
+                                            within the European Business Program, a general management curriculum,
+                                            oriented towards management and international business. I was member of the
+                                            student
+                                            hostel, representative of my section year after year, member of the
+                                            committee for the renewal of the EQUIS accreditation and I invested myself
+                                            in all possible
+                                            projects in order to contribute to the influence of my school and the
+                                            quality of life on campus. I also join the university rugby team.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- FIN MODAL -->
+
+                            <div class="col-md-3 col-lg-3 col-sm-12 mb-3">
+                                <div class="card bg-dark text-white">
+                                    <div class="card-overlay"></div>
+                                    <img src="./assets/groningen.JPG" class="card-img"
+                                        alt="historical building of the Universitu of Groningen, netherlands">
+                                    <div class="card-img-overlay">
+                                        <h4 class="card-title">Welkom in Nederland!</h4>
+                                        <p class="card-text">From 2018 to 2020, I was able to go on an 18-month Erasmus
+                                            exchange in the Netherlands at one of the most prestigious partner
+                                            universities of the EBP program. <br>
+                                            <button class="btn btn-outline-light mt-1" data-bs-toggle="modal"
+                                                data-bs-target="#rug"> Read more..</button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- MODAL -->
+                            <div class="modal fade" id="rug" data-bs-backdrop="static" data-bs-keyboard="false"
+                                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <div class="modal-content bg-dark">
+                                        <div class="modal-header">
+                                            <!-- TITLE MODAL -->
+                                            <h5 class="modal-title" id="staticBackdropLabel">Welkom in Nederland!</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <!-- CONTENT MODAL -->
+                                        <div class="modal-body">
+                                            From 2018 to 2020, I was able to go on an 18-month Erasmus
+                                            exchange in the Netherlands at one of the most prestigious partner
+                                            universities of the EBP program. The University of Groningen (founded in
+                                            1614) and its Bachelor of Science in International Business taught me all
+                                            the academic rigour and codes during varied and demanding work. It's a whole
+                                            different culture (and not just transportation) that I have come to love and
+                                            understand. This exchange was both rewarding and challenging. Much of the
+                                            curriculum focused on econometrics, statistics (via SPSS) and cross-cultural
+                                            management.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- FIN MODAL -->
+
+                            <div class="col-md-3 col-lg-3 col-sm-12 mb-3">
+                                <div class="card bg-dark text-white">
+                                    <div class="card-overlay"></div>
+                                    <img src="./assets/isli.jpg" class="card-img"
+                                        alt="Kedge business school and its ISLI supply chain centre of excellence in Bordeaux">
+                                    <div class="card-img-overlay">
+                                        <h4 class="card-title">Incoterms, forecasts & Kanban</h4>
+                                        <p class="card-text">After this exchange in the Netherlands and asking myself
+                                            what I wanted to do later in my professional life, I thought about my first
+                                            professional experience in maritime transit of wines and spirits. <br>
+                                            <button class="btn btn-outline-light mt-1" data-bs-toggle="modal"
+                                                data-bs-target="#isli"> Read more..</button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- MODAL -->
+                            <div class="modal fade" id="isli" data-bs-backdrop="static" data-bs-keyboard="false"
+                                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <div class="modal-content bg-dark">
+                                        <div class="modal-header">
+                                            <!-- TITLE MODAL -->
+                                            <h5 class="modal-title" id="staticBackdropLabel">Incoterms, forecasts &
+                                                Kanban</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <!-- CONTENT MODAL -->
+                                        <div class="modal-body">
+                                            After this exchange in the Netherlands and asking myself
+                                            what I wanted to do later in my professional life, I thought about my first
+                                            professional experience in maritime transit of wines and spirits. Coming
+                                            from a family of road hauliers, I decided to make logistics and supply chain
+                                            my vocation. So I applied for Kedge's Master of Science in Supply Chain
+                                            (MSc. ISLI), and I joined the 2020-2022 curriculum. This high-level
+                                            training, recognized in France and Europe, will give me all the elements to
+                                            join one of the aeronautical, automotive or pharmaceutical groups that I
+                                            admire since my younger years as a manager or supply chain analyst.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- FIN MODAL -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professionnal Experiences -->
+
+        <section id="professional" class="py-5 bg-grey h-100">
+            <div class="container-fluid px-lg-5">
+                <div class="row">
+                    <div class="col-md-12 mx-auto mb-5">
+                        <h3 class="fw-bold">Professional Experiences</h3>
+                        <figure>
+                            <blockquote class="blockquote">
+                                <p>Every path but your own is the path of fate. Keep on your own track, then.</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                                <cite class="text-white" title="Source Title">- Henry David Thoreau
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="row d-flex justify-content-between align-items-center">
+                            <div class="col-md-3 col-lg-3 col-sm-12 mb-3">
+                                <div class="card bg-dark text-white">
+                                    <div class="card-overlay"></div>
+                                    <img src="./assets/hillebrand.jpg" class="card-img"
+                                        alt="JF Hillebrand forwarding agent's truck">
+                                    <div class="card-img-overlay">
+                                        <h4 class="card-title">First steps in international logistics</h4>
+                                        <p class="card-text">During the summer of 2017, I decided to do an optional
+                                            internship to accumulate experience that would be useful later. <br>
+                                            <button class="btn btn-outline-light mt-1" data-bs-toggle="modal"
+                                                data-bs-target="#jfh"> Read more..</button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- MODAL -->
+                            <div class="modal fade" id="jfh" data-bs-backdrop="static" data-bs-keyboard="false"
+                                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <div class="modal-content bg-dark">
+                                        <div class="modal-header">
+                                            <!-- TITLE MODAL -->
+                                            <h5 class="modal-title" id="staticBackdropLabel">First steps in
+                                                international logistics</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <!-- CONTENT MODAL -->
+                                        <div class="modal-body">
+                                            During the summer of 2017, I decided to do an optional
+                                            internship to accumulate experience that would be useful later. The German
+                                            group JF Hillebrand, the leading forwarding agent in the wine and spirits
+                                            market, accepted me on its site in Bruges (France) as an export
+                                            documentation assistant. I, therefore, had to manage the exports of
+                                            alcoholic beverages from the producer to the port of departure, including
+                                            customs, administrative and logistical formalities and the booking of
+                                            containers and transport vessels. This first experience was incredibly rich
+                                            in learning, particularly from a soft skills point of view.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- FIN MODAL -->
+
+                            <div class="col-md-3 col-lg-3 col-sm-12 mb-3">
+                                <div class="card bg-dark text-white">
+                                    <div class="card-overlay"></div>
+                                    <img src="./assets/dlhb.jpg" class="card-img"
+                                        alt="Dolce La Hulpe Brussels' exterior">
+                                    <div class="card-img-overlay">
+                                        <h4 class="card-title">4-star expatriation</h4>
+                                        <p class="card-text">Then I took my things and my car to Belgium, near Brussels
+                                            and Waterloo, to join the Wyndham hotel group and the Dolce chain as
+                                            Convention and Conference Service Manager for their 4-star hotel and
+                                            conference centre. <br>
+                                            <button class="btn btn-outline-light mt-1" data-bs-toggle="modal"
+                                                data-bs-target="#dlhb"> Read more..</button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- MODAL -->
+                            <div class="modal fade" id="dlhb" data-bs-backdrop="static" data-bs-keyboard="false"
+                                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <div class="modal-content bg-dark">
+                                        <div class="modal-header">
+                                            <!-- TITLE MODAL -->
+                                            <h5 class="modal-title" id="staticBackdropLabel">4-star expatriation</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <!-- CONTENT MODAL -->
+                                        <div class="modal-body">
+                                            Then I took my things and my car to Belgium, near Brussels
+                                            and Waterloo, to join the Wyndham hotel group and the Dolce chain as
+                                            Convention and Conference Service Manager for their 4-star hotel and
+                                            conference centre. This hotel had the peculiarity of being the Deloitte
+                                            Europe Middle East and Africa group (Deloitte University). I was, therefore,
+                                            responsible for all the events of the hotel's biggest customer, from their
+                                            design, organization, progress to final invoicing and feedback. From January
+                                            to May 2018, this internship allowed me to meet essential interlocutors
+                                            worldwide, develop my sense of priorities, and place the customer at the
+                                            center of my attention to guide my efforts towards the quality of service
+                                            optimal. It was my first expatriation.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- FIN MODAL -->
+
+                            <div class="col-md-3 col-lg-3 col-sm-12 mb-3">
+                                <div class="card bg-dark text-white">
+                                    <div class="card-overlay"></div>
+                                    <img src="./assets/ajk.jpg" class="card-img" alt="AJK Ingenierie logo">
+                                    <div class="card-img-overlay">
+                                        <h4 class="card-title">Back to Toulouse</h4>
+                                        <p class="card-text">During the summer of 2020, in the midst of the COVID-19
+                                            pandemic and not to remain passive in the face of the challenges that
+                                            presented themselves, I joined the AJK Engineering design office in
+                                            Toulouse... <br>
+                                            <button class="btn btn-outline-light mt-1" data-bs-toggle="modal"
+                                                data-bs-target="#ajk"> Read more..</button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- MODAL -->
+                            <div class="modal fade" id="ajk" data-bs-backdrop="static" data-bs-keyboard="false"
+                                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <div class="modal-content bg-dark">
+                                        <div class="modal-header">
+                                            <!-- TITLE MODAL -->
+                                            <h5 class="modal-title" id="staticBackdropLabel">Back to Toulouse</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <!-- CONTENT MODAL -->
+                                        <div class="modal-body">
+                                            During the summer of 2020, in the midst of the COVID-19
+                                            pandemic and not to remain passive in the face of the challenges that
+                                            presented themselves, I joined the AJK Engineering design office in
+                                            Toulouse... This office, which usually works with the aerospace sector, has
+                                            developed a high-start, contactless and secure hydroalcoholic gel terminal
+                                            for high-traffic public places. I was the project's commercial manager, and
+                                            I had to put in place the entire commercial development strategy of the
+                                            product in the south of France. Under the direct responsibility of the
+                                            commercial director and founder of the office, I deployed everything I had
+                                            learned in business school and my previous internships to make our solution
+                                            known to as many people as possible.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- FIN MODAL -->
+
+                            <div class="col-md-3 col-lg-3 col-sm-12 mb-3">
+                                <div class="card bg-dark text-white">
+                                    <div class="card-overlay"></div>
+                                    <img src="./assets/stmanagement.jpg" class="card-img"
+                                        alt="ST management tanker vessel">
+                                    <div class="card-img-overlay">
+                                        <h4 class="card-title">All Hands on Deck</h4>
+                                        <p class="card-text">In March 2021, it is ST Management's turn to trust me and
+                                            entrust me with an essential task in my curriculum and their activity: that
+                                            of buyer and supplier for the high-tonnage vessels they manage. <button
+                                                class="btn btn-outline-light mt-1" data-bs-toggle="modal"
+                                                data-bs-target="#modal"> Read more..</button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- MODAL -->
+                            <div class="modal fade" id="modal" data-bs-backdrop="static" data-bs-keyboard="false"
+                                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <div class="modal-content bg-dark">
+                                        <div class="modal-header">
+                                            <!-- TITLE MODAL -->
+                                            <h5 class="modal-title" id="staticBackdropLabel">All Hands on Deck</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <!-- CONTENT MODAL -->
+                                        <div class="modal-body">
+                                            In March 2021, it is ST Management's turn to trust me and
+                                            entrust me with an essential task in my curriculum and their activity:
+                                            that
+                                            of buyer and supplier for the high-tonnage vessels they manage.
+                                            Therefore, I
+                                            was in charge of purchasing all consumables on board the ships (food,
+                                            spare
+                                            parts, maintenance, fuel...), whether long-term or emergency purchases.
+                                            This
+                                            data-driven position, unprecedented for me, allowed me to make a crucial
+                                            link between purchasing and the supply chain itself, to understand and
+                                            apprehend the entire value chain of companies.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- FIN MODAL -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section id="myresume" class="py-5 bg-grey">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-lg-8 col-sm-10 mx-auto">
+                            <h3 class="text-center py-3">MY RESUME</h3>
+                            <a href="./assets/CV.pdf" target="_blank" rel="noopener noreferrer">
+                                <img class="img-fluid" src="./assets/cv.jpg" alt="Antoine Blazy resume">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <footer class="py-3 bg-light" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p>
+                            <a class="link-dark" href="https://goo.gl/maps/sFozzHJQ9rEjZVAa9" target="_blank">
+                                2 Avenue de Noës, Rés. Tournebride, Bât. Capucine, Apt. 101 <br>
+                                33600 - Pessac, France
+                            </a>
+                        </p>
+                        <p> <a class="link-dark" href="tel:+33645170063">+33 6 45 17 00 63</a> </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 d-flex align-items-center justify-content-center my-3">
+                        <a class="nav-link" href="https://www.linkedin.com/in/antoineblazy/">
+                            <i class="d-block fa-2x fab fa-linkedin text-muted fa-lg mr-2"></i>
+                        </a>
+                        <a class="nav-link" href="mailto:antoine.blazy@kedgebs.com">
+                            <i class="d-block fa-2x fas fa-envelope text-muted fa-lg mx-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center text-dark">
+                        <p class="mb-0">&copy; 2020-2021 Antoine Blazy. All rights reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </footer>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
